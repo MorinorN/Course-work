@@ -27,7 +27,7 @@ int main (void)
 
 void scan(char name, int S[SIZE][SIZE])
 {
-	printf("\nВъведи масива %c\n", name);
+	printf("\nР’СЉРІРµРґРё СЃС‚РѕР№РЅРѕСЃС‚ РЅР° РїСЂРѕРјРµРЅР»РёРІР°С‚Р° %c:\n", name);
 	for(f=0; f<SIZE; f++)
 	for(u=0; u<SIZE; u++)
 	{
@@ -46,12 +46,12 @@ void sum(char name, int S[SIZE][SIZE])
 		if(S[SIZE][SIZE]%2 == 0)
 		sum= sum + S[SIZE][SIZE];
 	}
-	printf("\nСумата на четните числа под главния диагонал в масива %d: %d\n",name ,sum);
+	printf("\nРЎСѓРјР°С‚Р° РЅР° С‡РµС‚РЅРёС‚Рµ РµР»РµРјРµРЅС‚Рё РїРѕРґ РіР»Р°РІРЅРёСЏ РґРёР°РіРѕРЅР°Р» РІ РјР°СЃРёРІР° %c: %d\n",name ,sum);
 }
 
 void print(char name,int S[SIZE][SIZE])
 {
-	printf("\nМасива %c\n",name);
+	printf("\nРњР°СЃРёРІР° %c:\n",name);
 	for(f=0; f<SIZE; f++)
 	{
 		printf("\n");
